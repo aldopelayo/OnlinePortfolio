@@ -48,6 +48,11 @@ p{
     font-weight: 300;
 }
 
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+
 .heroarea{
     display: flex;
     height: 100%;
@@ -121,9 +126,21 @@ p{
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(121, 107, 82);
+    margin:10px;
 }
 
 .project-container{
     display: flex;
     justify-content: space-around;
+}
+
+.project-image{
+    margin: 25px;
+    width:250px;
+    border-radius: 125px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
 }
