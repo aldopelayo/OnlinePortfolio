@@ -3,7 +3,6 @@ body{
 }
 section {
     background-color: white;
-    border: solid black 1px;
 
 }
 
@@ -110,7 +109,7 @@ p{
 
 .headshot{
     width: 300px;
-    border-radius: 150px;
+    border-radius: 100px;
 }
 
 .headshot-container{
@@ -121,7 +120,7 @@ p{
 .project-card{
     width: 300px;
     height: 500px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgb(121, 107, 82);
 }
 
 .project-container{
