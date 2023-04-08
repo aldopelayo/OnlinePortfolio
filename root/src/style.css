@@ -116,13 +116,18 @@ p{
 }
 
 .headshot{
-    width: 300px;
-    border-radius: 100px;
+    border: #2e303d;
+    height: 550px;
+    width: 400px;
+    position: absolute;
+    right: 10%;
 }
 
 .headshot-container{
     display: flex;
     align-items: center;
+    max-width: 50%;
+    padding-left: 50%;
 }
 
 .project-card{
@@ -207,4 +212,9 @@ a{
     .logo{
         display: none;
     }
+}
+
+.information{
+    max-width: 50%;
+    padding-right: 50%;
 }
