@@ -13,8 +13,10 @@ section {
     font-size:40px ;
 }
 footer{
-    height:500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav{
@@ -28,6 +30,7 @@ ul{
     justify-content: space-around;
     font-size:  30px;
 }
+
 
 li{
     text-decoration:none ;
@@ -134,6 +137,14 @@ p{
     justify-content: space-around;
 }
 
+
+@media only screen and (max-width:1000px){
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .project-image{
     margin: 25px;
     width:250px;
@@ -143,4 +154,57 @@ p{
 hr{
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.project-link{
+    text-decoration:none;
+    color: goldenrod;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hambaga{
+    display:none;
+}
+
+.hambaga:focus{
+    outline:0;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .hambaga{
+        display: block;
+        border: block;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul{
+        display: none;
+        background-color: #2e303d ;
+        margin: 0px;
+    }
+
+
+    ul.show{
+        display:block;
+    }
+
+    nav{
+        display: flex ;
+        flex-direction: column-reverse;
+        background-color: #2e303d ;
+    }
+
+    .logo{
+        display: none;
+    }
 }

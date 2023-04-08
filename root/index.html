@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Permanent+Marker&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b84ad222f5.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,17 +18,20 @@
     <section class="hero">
         <nav>
             <img class="logo" src="src/images/moon-art-1641879.png" alt="Aldo Pelayos Logo">
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact-me">Contact me</a></li>
             </ul>
+            <button class="hambaga" id="hambaga">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="heroarea">
             <div class="hero-text">
                 <h1>Aldo Pelayo</h1>
                 <p>Front End Developer</p>
-                <div class="button">About me</div>
+                <div class="button"><a href="#about-me">About me</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -48,7 +52,7 @@
             </div>
     </section>
 
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About me</h2>
             <p>hello my name is aldo pelayo, I am a frontend web Developer </p>
@@ -58,7 +62,7 @@
         </div>
     </section>
 
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -66,32 +70,35 @@
                 <h3>Project One</h3>
                 <p class="subtext">this is my project</p>
                 <hr/>
-                <p class="subtext">View here </p>
+                <p class="subtext"><a class="project-link" href="https://github.com/jgislaszapata/Recipe-Finder">View here</a> </p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="/root/src/images/invoice manager.png" alt="Project two Image"/>
                 <h3>Project two</h3>
                 <p class="subtext">this is my project</p>
                 <hr/>
-                <p class="subtext">View here </p>
+                <p class="subtext"><a class="project-link" href="https://github.com/jgislaszapata/Invoice-Manager">View here</a> </p>
             </div>
             <div class="project-card">
                 <img class="project-image" src="/root/src/images/agile board.png" alt="Project three Image"/>
                 <h3>Project three</h3>
                 <p class="subtext">this is my project</p>
                 <hr/>
-                <p class="subtext">View here </p>
+                <p class="subtext"><a class="project-link" href="https://github.com/Sivaparam/agile-board">View here</a> </p>
             </div>
             <div class="project-card">
                 <img src="" alt="Project four Image"/>
                 <h3>Project four</h3>
                 <p class="subtext">this is my project</p>
                 <hr/>
-                <p class="subtext">View here </p>
-            </div>
+                <p class="subtext"><a class="project-link" href="/" >View here</a> </p>
+            </div> 
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>aldo.pelayo.ga@gmail.com</p>
+    </footer>
 
 
     <script src="src/index.js"></script>
