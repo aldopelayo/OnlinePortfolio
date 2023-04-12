@@ -117,8 +117,8 @@ p{
 
 .headshot{
     border: #2e303d;
-    height: 550px;
-    width: 400px;
+    height: 60%;
+    width: 20%;
     position: absolute;
     right: 10%;
 }
@@ -217,4 +217,12 @@ a{
 .information{
     max-width: 50%;
     padding-right: 50%;
+}
+
+.Experience-titles{
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    padding: .25em 0;
+    background: goldenrod;
 }
