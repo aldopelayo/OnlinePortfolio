@@ -226,3 +226,7 @@ a{
     padding: .25em 0;
     background: goldenrod;
 }
+
+.code-languages{
+    font-size: large;
+}
